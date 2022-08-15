@@ -217,6 +217,10 @@ letter-spacing: 0.15rem;
     #menu__checkbox:checked ~ .nav-list__wrapper{
         display:block;
     }
+    
+    #menu__checkbox:checked ~ label .nav__ham-menu{
+        background: url(../images/icon-close.svg) no-repeat;
+    }
 
 
     .nav-list{
